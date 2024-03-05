@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+@import 'reset'
+$transparente: rgba(196, 99, 99, 0.2)
+$pad-space:20px
+
+body
+    background: black  
+    font-size: 18px
+    height: 100vh
+
+header
+    nav
+        background: red
+    
+header
+    font-family: 'Roboto', sans-serif
+    background: url('../images/mar.jpeg')
+    background-size: 400px
+    background-repeat: no-repeat
+    background-position: center
+
+footer
+    position: absolute
+    bottom:0 
+    font-family: 'Roboto', sans-serif
+    border-top: 10px solid 
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    padding: 20px $pad-space 40px $pad-space
+    color: white
+    font-weight: normal
+
+    @media screen and {max-width: 500px}
+         body background: red
+  
+     @media screen and {max-width: 500px}
+         body background: green 
